@@ -6,7 +6,6 @@ vi:
   header:
     home: "Trang chủ"
     help: "Trợ giúp"
-    log_in: "Đăng nhập"
   help:
     description_1: "Nhận trợ giúp về Ruby on Rails Tutorial tại"
     description_2: "Trang trợ giúp Rails Tutorial"
@@ -16,3 +15,28 @@ vi:
     description_1: "Ứng dụng mẫu"
     description_2: "Ruby on Rails Tutorial."
     description_3: "Đây là trang chủ của"
+  create_my_account: "Tạo tài khoản"
+  name: "Tên"
+  log_in: "Đăng nhập"
+  sign_up: "Đăng ký"
+  password: "Mật khẩu"
+  password_confirmation: "Xác nhận mật khẩu"
+  user_not_found: "Không tìm thấy người dùng"
+  sign_up_success: "Đăng ký thành công!"
+  shared:
+    the_form_contains: "Form chứa"
+    errors: "lỗi"
+  activerecord:
+    models:
+      user: "Người dùng"
+    attributes:
+      user:
+        name: "Tên"
+        email: "Email"
+        password: "Mật khẩu"
+        password_confirmation: "Xác nhận lại mật khẩu"
+    errors:
+      messages:
+        blank: "Không được để trống"
+        invalid: "không hợp lệ"
+        too_short: "Mật khẩu ít nhất là %{count} ký tự"
