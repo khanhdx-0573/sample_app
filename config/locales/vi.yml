@@ -1,0 +1,18 @@
+vi:
+  language:
+    vietnamese: "Tiếng Việt"
+    english: "Tiếng Anh"
+  base_title: "Ứng dụng mẫu Ruby on Rails Tutorial"
+  header:
+    home: "Trang chủ"
+    help: "Trợ giúp"
+    log_in: "Đăng nhập"
+  help:
+    description_1: "Nhận trợ giúp về Ruby on Rails Tutorial tại"
+    description_2: "Trang trợ giúp Rails Tutorial"
+    description_3: "Để nhận trợ giúp về ứng dụng này, xem"
+    description_4: "Ứng dụng mẫu"
+  home:
+    description_1: "Ứng dụng mẫu"
+    description_2: "Ruby on Rails Tutorial."
+    description_3: "Đây là trang chủ của"

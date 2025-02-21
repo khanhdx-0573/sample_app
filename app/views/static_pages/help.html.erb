@@ -1,0 +1,8 @@
+<% provide :title, t("header.help") %>
+<h1> <%= t("header.help") %> </h1>
+<p>
+  <%= t("help.description_1") %>
+  <%= link_to t("help.description_2"), Settings.rails_url_help, class: "link-class" %>
+  <%= t("help.description_3") %>
+  <%= link_to t("help.description_4"), Settings.github_url, class: "link-class" %>
+</p>
