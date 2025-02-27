@@ -6,7 +6,6 @@ en:
   header:
     home: "Home"
     help: "Help"
-    log_in: "Log in"
   help:
     description_1: "Get help on the Ruby on Rails Tutorial at the"
     description_2: "Rails Tutorial help page"
@@ -16,3 +15,28 @@ en:
     description_1: "Sample app"
     description_2: "Ruby on Rails Tutorial."
     description_3: "This is the home page for the"
+  create_my_account: "Create my account"
+  name: "Name"
+  log_in: "Log in"
+  sign_up: "Sign up"
+  password: "Password"
+  password_confirmation: "Password confirmation"
+  user_not_found: "User not found"
+  sign_up_success: "Sign up successfully!"
+  shared:
+    the_form_contains: "The form contains"
+    errors: "errors"
+  activerecord:
+    models:
+      user: "User"
+    attributes:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Password confirmation"
+    errors:
+      messages:
+        blank: "Please fill in all the information"
+        invalid: "Invalid format"
+        too_short: "Minimum password length is %{count} characters"
