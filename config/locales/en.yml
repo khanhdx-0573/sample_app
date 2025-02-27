@@ -48,4 +48,5 @@ en:
   login_fail: "Invalid email/password combination"
   logout_success: "Logout successfully"
   new_user: "New user?"
+  remember_me: "Remember me"
   settings: "Settings"
