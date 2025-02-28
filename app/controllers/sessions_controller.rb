@@ -21,10 +21,9 @@ class SessionsController < ApplicationController
 
   private
   def success_login user
-    reset_session
     login user
     remember user if params.dig(:session, :remember_me) == "1"
-    redirect_to user_path(id: user.id), status: :see_other
+    redirect_back_or user_path(id: user.id)
   end
 
   def fail_login
