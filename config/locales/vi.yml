@@ -48,4 +48,5 @@ vi:
   login_fail: "Email/Mật khẩu không đúng"
   logout_success: "Đăng xuất thành công"
   new_user: "Chưa có tài khoản?"
+  remember_me: "Ghi nhớ đăng nhập"
   settings: "Cài đặt"
