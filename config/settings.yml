@@ -6,3 +6,7 @@ max_name_length: 50
 max_email_length: 255
 min_password_length: 6
 valid_email_regex: \A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z
+image_url: "http://gravatar.com/emails"
+pagy_items: 10
+default_gravatar_size: 80
+gravatar_size: 50
