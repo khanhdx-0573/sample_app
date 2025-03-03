@@ -51,6 +51,17 @@ en:
     not_correct_user: "You can't edit or view information of other users"
     not_admin: "You don't have permission to access this page"
     all_users: "All users"
+    account_not_activated: "Your account has not been activated yet. Please check your email to activate your account."
+    account_activated: "Your account has been successfully activated."
+    invalid_activation_link: "Activation link is invalid. Please check again."
+  user_mailer:
+    hi: "Hi"
+    welcome_to_the: "Welcome to the"
+    click_the_link_below: "Click on the link below to activate your account"
+    account_activation:
+      subject: "Active your account"
+    password_reset:
+      subject: "Reset password"
   account: "Account"
   profile: "Profile"
   logout: "Logout"
@@ -64,3 +75,4 @@ en:
   save_changes: "Save changes"
   delete: "Delete"
   are_you_sure: "Are you sure?"
+  active: "Active"

@@ -53,6 +53,17 @@ vi:
     not_correct_user: "Bạn không thể chỉnh sửa hay xem thông tin của người khác"
     not_admin: "Bạn không có quyền truy cập trang này"
     all_users: "Tất cả nguời dùng"
+    account_not_activated: "Tài khoản chưa được kích hoạt, vui lòng kiểm tra email để kích hoạt tài khoản"
+    account_activated: "Tài khoản kích hoạt thành công"
+    invalid_activation_link: "Link kích hoạt không hợp lệ, vui lòng kiểm tra lại"
+  user_mailer:
+    hi: "Xin chào"
+    welcome_to_the: "Chào mừng bạn đến với"
+    click_the_link_below: "Nhấn vào link bên dưới để kích hoạt tài khoản"
+    account_activation:
+      subject: "Kích hoạt tài khoản"
+    password_reset:
+      subject: "Đặt lại mật khẩu"
   account: "Tài khoản"
   profile: "Hồ sơ"
   logout: "Đăng xuất"
@@ -66,3 +77,4 @@ vi:
   save_changes: "Lưu thay đổi"
   delete: "Xóa"
   are_you_sure: "Bạn có chắc chắn muốn xóa?"
+  active: "Kích hoạt"

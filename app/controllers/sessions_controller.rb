@@ -6,7 +6,12 @@ class SessionsController < ApplicationController
     password = params.dig(:session, :password)
     @user = User.find_by(email:)
     if @user&.authenticate password
-      success_login @user
+      if @user.activated?
+        success_login @user
+      else
+        flash.now[:warning] = t "user.account_not_activated"
+        render :new, status: :unprocessable_entity
+      end
     else
       fail_login
     end
