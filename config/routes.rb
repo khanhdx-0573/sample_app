@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  scope "(:locale)", locale: /en|vi/ do
     get "static_pages/home"
     get "static_pages/help"
 
@@ -12,7 +11,7 @@ Rails.application.routes.draw do
     delete "/logout",to: "sessions#destroy"
 
     resources :account_activations, only: :edit
+    resources :password_resets, only: %i(new create edit update)
 
     root "static_pages#home"
-  end
 end

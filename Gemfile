@@ -49,6 +49,7 @@ gem "faker", "2.21.0"
 gem "figaro", "~> 1.1", ">= 1.1.1"
 gem "i18n"
 gem "pagy"
+gem "pry-rails", group: :development
 gem "sassc-rails"
 # Use Sass to process CSS
 # gem "sassc-rails"
