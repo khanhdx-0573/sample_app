@@ -56,6 +56,13 @@ vi:
     account_not_activated: "Tài khoản chưa được kích hoạt, vui lòng kiểm tra email để kích hoạt tài khoản"
     account_activated: "Tài khoản kích hoạt thành công"
     invalid_activation_link: "Link kích hoạt không hợp lệ, vui lòng kiểm tra lại"
+    forgot_password: "Quên mật khẩu"
+    check_email_reset_password: "Vui lòng kiểm tra email để đặt lại mật khẩu"
+    password_reset_success: "Đặt lại mật khẩu thành công"
+    password_reset_fail: "Đặt lại mật khẩu thất bại, link hết hạn hoặc không hợp lệ, hoặc người dùng không tồn tại."
+    email_not_found_or_not_activated: "Email không tồn tại hoặc chưa được kích hoạt"
+    update_password: "Cập nhật mật khẩu"
+    password_empty: "Mật khẩu không được để trống"
   user_mailer:
     hi: "Xin chào"
     welcome_to_the: "Chào mừng bạn đến với"
@@ -64,6 +71,9 @@ vi:
       subject: "Kích hoạt tài khoản"
     password_reset:
       subject: "Đặt lại mật khẩu"
+      description_1: "Để đặt lại mật khẩu, vui lòng nhấn vào link bên dưới:"
+      description_2: "Link này sẽ hết hạn trong hai giờ."
+      description_3: "Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn sẽ không thay đổi."
   account: "Tài khoản"
   profile: "Hồ sơ"
   logout: "Đăng xuất"
@@ -78,3 +88,4 @@ vi:
   delete: "Xóa"
   are_you_sure: "Bạn có chắc chắn muốn xóa?"
   active: "Kích hoạt"
+  submit: "Gửi"

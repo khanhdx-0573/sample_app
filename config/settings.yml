@@ -10,3 +10,4 @@ image_url: "http://gravatar.com/emails"
 pagy_items: 10
 default_gravatar_size: 80
 gravatar_size: 50
+expired_time: 2

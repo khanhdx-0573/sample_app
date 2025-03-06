@@ -54,6 +54,13 @@ en:
     account_not_activated: "Your account has not been activated yet. Please check your email to activate your account."
     account_activated: "Your account has been successfully activated."
     invalid_activation_link: "Activation link is invalid. Please check again."
+    forgot_password: "Forgot password"
+    check_email_reset_password: "Please check your email to reset your password"
+    password_reset_success: "Reset password successfully"
+    password_reset_fail: "Reset password failed, link has expired or invalid, or user has not been activated"
+    email_not_found_or_not_activated: "Email not found or account not activated"
+    update_password: "Update password"
+    password_empty: "Password can't be empty"
   user_mailer:
     hi: "Hi"
     welcome_to_the: "Welcome to the"
@@ -62,6 +69,10 @@ en:
       subject: "Active your account"
     password_reset:
       subject: "Reset password"
+      description_1: "To reset your password click the link below:"
+      description_2: "This link will expire in two hours."
+      description_3: "If you did not request your password to be reset, please ignore this email and your password will stayas it is."
+
   account: "Account"
   profile: "Profile"
   logout: "Logout"
@@ -76,3 +87,4 @@ en:
   delete: "Delete"
   are_you_sure: "Are you sure?"
   active: "Active"
+  submit: "Submit"
