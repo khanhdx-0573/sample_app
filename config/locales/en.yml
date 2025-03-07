@@ -29,17 +29,31 @@ en:
   activerecord:
     models:
       user: "User"
+      micropost: "Micropost"
     attributes:
       user:
         name: "Name"
         email: "Email"
         password: "Password"
         password_confirmation: "Password confirmation"
+      micropost:
+        content: "Content"
+        image: "Image"
     errors:
       messages:
-        blank: "Please fill in all the information"
-        invalid: "Invalid format"
-        too_short: "Minimum password length is %{count} characters"
+        blank: "please fill in all the information"
+        invalid: "invalid format"
+        too_short: "length is %{count} characters"
+        confirmation: "doesn't match password"
+        taken: "has already been taken"
+  datetime:
+    distance_in_words:
+      about_x_minutes: "about %{count} minutes"
+      about_x_hours: "about %{count} hours"
+      about_x_months: "about %{count} months"
+      about_x_years: "about %{count} years"
+      x_minutes: "%{count} minutes"
+      less_than_x_minutes: "less than %{count} minutes"
   user:
     user_update_success: "Update user information successfully"
     user_delete_success: "Delete user successfully"
@@ -61,6 +75,16 @@ en:
     email_not_found_or_not_activated: "Email not found or account not activated"
     update_password: "Update password"
     password_empty: "Password can't be empty"
+  micropost:
+    name: "Micropost"
+    create_success: "Create micropost successfully"
+    delete_success: "Delete micropost successfully"
+    delete_fail: "Delete micropost failed"
+    not_found: "Micropost not found"
+    micropost_feed: "Micropost feed"
+    microposts: "Microposts"
+    image_size: "size should be less than 5MB"
+    image_format: "should be in the format jpg, jpeg, gif, or png"
   user_mailer:
     hi: "Hi"
     welcome_to_the: "Welcome to the"
@@ -88,3 +112,7 @@ en:
   are_you_sure: "Are you sure?"
   active: "Active"
   submit: "Submit"
+  post: "Post"
+  compose_new_post: "Compose new post"
+  ago: "ago"
+  posted: "Posted"

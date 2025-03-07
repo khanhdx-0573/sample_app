@@ -40,6 +40,7 @@ gem "jbuilder"
 gem "tzinfo-data", platforms: %i(mingw mswin x64_mingw jruby)
 
 # Reduces boot times through caching; required in config/boot.rb
+gem "active_storage_validations", "0.9.8"
 gem "bcrypt", "3.1.18"
 gem "bootsnap", require: false
 gem "bootstrap-sass", "3.4.1"
@@ -48,9 +49,12 @@ gem "config"
 gem "faker", "2.21.0"
 gem "figaro", "~> 1.1", ">= 1.1.1"
 gem "i18n"
+gem "i18n-js", "~> 3.0", ">= 3.0.2"
+gem "image_processing", "1.12.2"
 gem "pagy"
 gem "pry-rails", group: :development
 gem "sassc-rails"
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 

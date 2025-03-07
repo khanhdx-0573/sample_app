@@ -8,7 +8,8 @@ class UsersController < ApplicationController
   end
 
   def show
-    find_user
+    @pagy, @microposts = pagy @user.microposts.newest,
+                              limit: Settings.pagy_items
   end
 
   def new
@@ -64,14 +65,6 @@ class UsersController < ApplicationController
 
     flash[:danger] = t "user.not_correct_user"
     redirect_to root_url
-  end
-
-  def logged_in_user
-    return if logged_in?
-
-    store_location
-    flash[:danger] = t "user.please_log_in"
-    redirect_to login_path
   end
 
   def admin_user

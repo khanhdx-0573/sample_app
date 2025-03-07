@@ -11,3 +11,8 @@ pagy_items: 10
 default_gravatar_size: 80
 gravatar_size: 50
 expired_time: 2
+max_content_length: 140
+image_types: ["image/jpeg", "image/png", "image/gif"]
+max_image_size: 5
+micropost_image_height: 400
+micropost_image_width: 400
