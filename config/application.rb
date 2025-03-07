@@ -1,5 +1,4 @@
 require_relative "boot"
-
 require "rails/all"
 
 # Require the gems listed in Gemfile, including any gems
@@ -9,5 +8,6 @@ Bundler.require(*Rails.groups)
 module RailsTutorial
   class Application < Rails::Application
     config.load_defaults 7.0
+    config.active_storage.variant_processor = :mini_magick
   end
 end
