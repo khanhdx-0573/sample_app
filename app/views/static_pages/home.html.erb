@@ -1,7 +1,24 @@
 <% provide :title, t("header.home") %>
-<h1><%= t("home.description_1") %></h1>
-<p>
-  <%= t("home.description_2") %>
-  <strong><%= t("home.description_3") %></strong>
-  <%= link_to t("home.description_2"), Settings.rails_tutorial_url, class: "link-class" %>
-</p>
+<% if logged_in? %>
+  <div class="row">
+    <aside class="col-md-4">
+      <section class="user_info">
+        <%= render "shared/user_info" %>
+      </section>
+      <section class="micropost_form">
+        <%= render "shared/micropost_form" %>
+      </section>
+    </aside>
+    <div class="col-md-8">
+      <h3><%= t("micropost.micropost_feed") %></h3>
+      <%= render "shared/feed" %>
+    </div>
+  </div>
+<% else %>
+  <h1><%= t("home.description_1") %></h1>
+  <p>
+    <%= t("home.description_2") %>
+    <strong><%= t("home.description_3") %></strong>
+    <%= link_to t("home.description_2"), Settings.rails_tutorial_url, class: "link-class" %>
+  </p>
+<% end %>
