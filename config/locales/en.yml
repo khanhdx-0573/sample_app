@@ -116,3 +116,7 @@ en:
   compose_new_post: "Compose new post"
   ago: "ago"
   posted: "Posted"
+  followers: "Followers"
+  following: "Following"
+  follow: "Follow"
+  unfollow: "Unfollow"

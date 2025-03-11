@@ -114,3 +114,7 @@ vi:
   compose_new_post: "Viết bài mới"
   ago: "trước"
   posted: "Đăng"
+  followers: "Nguời theo dõi"
+  following: "Đang theo dõi"
+  follow: "Theo dõi"
+  unfollow: "Bỏ theo dõi"
